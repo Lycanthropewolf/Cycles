@@ -21,7 +21,8 @@ public class Main {
         int nowYear = 2022;
         int beforeYear = nowYear - 200;
         int afterYear = nowYear + 100;
-        for (year = 1896; year <= afterYear; year = year + 79) {
+        for (year = 0; year <= afterYear; year = year + 79) {
+            if(year<= 2022 +100 && year>= 2022-200)
             System.out.println(" Комета пролетела над землей в " + year + " году");
         }
 
