@@ -22,24 +22,24 @@ public class Main {
         int beforeYear = nowYear - 200;
         int afterYear = nowYear + 100;
         for (year = 0; year <= afterYear; year = year + 79) {
-            if(year<= 2022 +100 && year>= 2022-200)
-            System.out.println(" Комета пролетела над землей в " + year + " году");
+            if (year <= afterYear && year >= beforeYear)
+                System.out.println(" Комета пролетела над землей в " + year + " году");
         }
 
         // Задание 4
         for (int namber = 1; namber <= 30; namber++) {
             if (namber % 15 == 0) {
-                System.out.println( + namber + " :ping pong ");
+                System.out.println(+namber + " :ping pong ");
             } else if (namber % 5 == 0) {
                 System.out.println(+namber + " :pong ");
-            } else if (namber % 3  == 0) {
-                System.out.println(+ namber + " :ping ");
+            } else if (namber % 3 == 0) {
+                System.out.println(+namber + " :ping ");
             } else {
                 System.out.println(namber);
             }
-
-
         }
+
+        // Задание 5
 
     }
 
