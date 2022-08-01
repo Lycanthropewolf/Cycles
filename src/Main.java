@@ -11,10 +11,24 @@ public class Main {
         }
 
         // Задание 2
+        for ( int firstFriday =3; firstFriday <= 31; firstFriday = firstFriday + 7){
+            System.out.println(" Сегодня пятница " + firstFriday + " число,необходимо подготовить отчет ");
+        }
+
+        // Задание 3
+        int year =0;
+        int nowYear = 2022;
+         for ( year = 0; year <= 2022 + 100; year = year + 79 ) {
+
+             System.out.println(" Комета пролетела над землей в " + year + " году");
+         }
+
+
+
+        }
 
 
     }
 
 
 
-}
