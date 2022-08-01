@@ -21,18 +21,24 @@ public class Main {
         int nowYear = 2022;
         int beforeYear = nowYear - 200;
         int afterYear = nowYear + 100;
-        for (year =1896;  year <= afterYear; year = year + 79) {
+        for (year = 1896; year <= afterYear; year = year + 79) {
             System.out.println(" Комета пролетела над землей в " + year + " году");
         }
 
         // Задание 4
+        for (int namber = 1; namber <= 30; namber++) {
+            if (namber % 3 == 0 && namber % 5 == 0 && (namber % 5) % 3 == 0) {
+                System.out.println(namber);
+
+            }
 
 
-
+        }
     }
-
-
 }
+
+
+
 
 
 
