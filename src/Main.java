@@ -41,6 +41,11 @@ public class Main {
 
         // Задание 5
 
+        for( int one = 0;int two = 1;  fib10<=10;){
+            System.out.println(fib);
+        }
+
+
     }
 
 
