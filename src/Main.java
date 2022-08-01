@@ -27,15 +27,23 @@ public class Main {
 
         // Задание 4
         for (int namber = 1; namber <= 30; namber++) {
-            if (namber % 3 == 0 && namber % 5 == 0 && (namber % 5) % 3 == 0) {
-                System.out.println(namber);
-
-            }
+            if (namber % 15 == 0) {
+                System.out.println(" ping pong");
+            } else if (namber % 5 == 0) {
+                System.out.println("pong");
+            } else if (namber % 3  == 0) {
+                System.out.println("ping");
+            }System.out.println(namber);
 
 
         }
+
     }
+
+
 }
+
+
 
 
 
