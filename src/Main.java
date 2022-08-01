@@ -4,31 +4,30 @@ public class Main {
         // Задание 1
         int a = 0;
         while (a < 10) {
-            a = a + 1; System.out.println(" итерация числа а равна " + a);
+            a = a + 1;
+            System.out.println(" итерация числа а равна " + a);
         }
-        for (a = 10; a > 0; a = a -1){
+        for (a = 10; a > 0; a = a - 1) {
             System.out.println(" итерация числа а равна " + a);
         }
 
         // Задание 2
-        for ( int firstFriday =3; firstFriday <= 31; firstFriday = firstFriday + 7){
+        for (int firstFriday = 3; firstFriday <= 31; firstFriday = firstFriday + 7) {
             System.out.println(" Сегодня пятница " + firstFriday + " число,необходимо подготовить отчет ");
         }
 
         // Задание 3
-        int year =0;
+        int year = 0;
         int nowYear = 2022;
-         for ( year = 0; year <= 2022 + 100; year = year + 79 ) {
-
-             System.out.println(" Комета пролетела над землей в " + year + " году");
-         }
-
-
-
+        for (year = 1896; year <= 2022 + 100; year = year + 79) {
+            System.out.println(" Комета пролетела над землей в " + year + " году");
         }
 
 
     }
+
+
+}
 
 
 
