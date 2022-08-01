@@ -28,12 +28,14 @@ public class Main {
         // Задание 4
         for (int namber = 1; namber <= 30; namber++) {
             if (namber % 15 == 0) {
-                System.out.println(" ping pong");
+                System.out.println( + namber + " :ping pong ");
             } else if (namber % 5 == 0) {
-                System.out.println("pong");
+                System.out.println(+namber + " :pong ");
             } else if (namber % 3  == 0) {
-                System.out.println("ping");
-            }System.out.println(namber);
+                System.out.println(+ namber + " :ping ");
+            } else {
+                System.out.println(namber);
+            }
 
 
         }
