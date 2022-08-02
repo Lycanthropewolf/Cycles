@@ -22,7 +22,7 @@ public class Main {
         int beforeYear = nowYear - 200;
         int afterYear = nowYear + 100;
         for (year = 0; year <= afterYear; year = year + 79) {
-            if (year <= afterYear && year >= beforeYear)
+            if (year >= beforeYear)
                 System.out.println(" Комета пролетела над землей в " + year + " году");
         }
 
@@ -41,15 +41,13 @@ public class Main {
 
         // Задание 5
 
-        for( int one = 0;int two = 1;  fib10<=10;){
-            System.out.println(fib);
         }
 
 
     }
 
 
-}
+
 
 
 
