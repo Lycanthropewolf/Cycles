@@ -63,11 +63,8 @@ public class Main {
         for (int j = 3; j <= 10; j++) {
             int currentFibonachi = preFibonachi1 + preFibonachi2;
             System.out.println(currentFibonachi);
-            preFibonachi1 =  preFibonachi2;
+            preFibonachi1 = preFibonachi2;
             preFibonachi2 = currentFibonachi;
-
-
-
         }
 
 
